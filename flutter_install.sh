@@ -24,6 +24,6 @@ sudo chown -R $USER:$USER /opt/flutter
 
 # adding /flutter/bin to PATH variable
 
-sudo echo "export PATH=${PATH}:/opt/flutter/bin"
+sudo echo "export PATH=${PATH}:/opt/flutter/bin" >> /etc/profile.d/flutter.sh
 
 echo "Flutter_sdk is installed! Reboot shell"
