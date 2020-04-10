@@ -8,7 +8,7 @@ echo "Downloading flutter_sdk"
 
 # using curl to download flutter_linux_v.tar.gz from flutter.dev/docs/get-started/install/linux
 
-sudo curl -LO https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.7.8+hotfix.3-stable.tar.xz
+sudo curl -LO https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.9-stable.tar.xz
 
 echo "Extracting flutter_sdk"
 sudo tar xvf flutter*
