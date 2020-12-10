@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/system/bin/sh
 
 # priority assessment for dalvik ART overrides
 am force-stop com.whatsapp
