@@ -1,8 +1,8 @@
-#!/system/bin/sh
 
 # priority assessment for dalvik ART overrides
 am force-stop com.whatsapp
 
+sleep 1
 # phenotype locate
 file=/data/data/com.whatsapp/shared_prefs/com.whatsapp_preferences.xml
 
